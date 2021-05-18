@@ -5,3 +5,5 @@ La pagina contiene ancora un errore riguardante il background;
 Errore nella creazione delle classi java.
 
 <18/05/2021> Problema relativo ai getter e setter della jsp, Error(500), Risolto tramite la corretta implementazione dei getter;
+
+<19/05/2021> Mancano solo i commenti
