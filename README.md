@@ -4,4 +4,4 @@
 La pagina contiene ancora un errore riguardante il background;
 Errore nella creazione delle classi java.
 
-<ToDO servlet, jsp, bean e DataBase> 
+<18/05/2021> Problema relativo ai getter e setter della jsp, Error(500), Risolto tramite la corretta implementazione dei getter;
