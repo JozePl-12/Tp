@@ -1,0 +1,132 @@
+body{
+    /* Inserisco la foto, la rendo a schermo intero e non la faccio ripetere */
+    background-image: url("back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tableAll{
+    /* Inserisco lunghezza e larghezza della tabella di questa classe */
+    width: 100%;
+    height: 70%;
+}
+.TableA{
+    /* Inserisco lunghezza, larghezza e colore della tabella di questa classe */
+    height: 15%;
+    background-color: rgba(143, 141, 136, 0.6);
+    width: 100%;
+}
+.TableNormal{
+    /* Inserisco larghezza e colore della tabella di questa classe */
+    background-color: rgba(143, 141, 136, 0.6);
+    width: 100%;
+}
+.TableF{
+    /* Inserisco larghezza, lunghezza, bordi, colori e margini */
+    height: 5%;
+    width: 100%;
+    border: 1px;
+    background-color: rgba(143, 141, 136, 0.6);
+    transition-duration: 2s;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+}
+.TableF:hover{
+    /* Inserisco larghezza, lunghezza e tempo di transizione (animazione) */
+    height: 5%;
+    border: 1px;
+    transition-duration: 2s;
+}
+.rotate{
+    /* Inserisco larghezza, alineamento, rotazione e tempo di transizione (animazione) */
+    width: 70%;
+    float: top right;
+    transform: rotate(35deg);
+    transition: 3s;
+}
+.tableF:hover .rotate{
+    /* Inserisco rotazione e tempo di animazione */
+    transform: rotate(225deg);
+    transition: 3s;
+}
+
+.Tr1{
+    /* Inserisco larghezza, lunghezza e colore della riga */
+    height: 100%;
+    width: 50%;
+    color: red;
+}
+.Td1{
+    /* Inserisco larghezza e lunghezza della colonna */
+    height: 50%;
+    width: 50%;
+}
+
+label{
+    /* Inserisco colore, famiglia e grandezza dei font della label */
+    color: white;
+    font-family: gymk;
+    font-size: 12px;
+}
+
+.DiscoverA{
+    /* Inserisco colore, famiglia e grandezza dei fontù */
+    color: white;
+    font-size: 60px;
+    font-family: gym;
+}
+
+form{
+    /* Inserisco i margini e il padding del form */
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 2%;
+}
+input{
+    /* Larghezza del campo, e centro il testo definendone la famiglia */
+    width: 150px;
+    text-align: center;
+    font-family: gymk;
+}
+input[type=submit]{
+    /* Inserisco gli angoli smussati, la famiglia e grandezza del font */
+    border-radius: 4em;
+    font-family: gymk;
+    font-size: 12px;
+    width: 70px;
+}
+
+.inputNC{
+    /* Inserisco gli angoli smussati, la famiglia e grandezza del font */
+    border-radius: 4em;
+    font-family: gymk;
+    font-size: 12px;
+    font-family: gymk;
+    width:100px;
+}
+.inputM{
+    /* Inserisco gli angoli smussati, la famiglia e grandezza del font */
+    border-radius: 4em;
+    font-family: gymk;
+    font-size: 12px;
+    font-family: gymk;
+    width:250px;
+}
+
+img{
+    /* Classe con grandezza e float della foto verso il basso */
+    width: 40%;
+    float: bottom;
+}
+
+
+/* Definisco le font family */
+@font-face{
+    font-family: gym;
+    src: url(gymn.otf);
+}
+@font-face{
+    font-family: gymk;
+    src: url(gymk.ttf);
+}
