@@ -7,3 +7,12 @@ Errore nella creazione delle classi java.
 <18/05/2021> Problema relativo ai getter e setter della jsp, Error(500), Risolto tramite la corretta implementazione dei getter;
 
 <19/05/2021> Mancano solo i commenti
+
+<25/05/2021> Ho inserito la connessione con il JDBC, che per il momento mi restituisce errori (Credo siano dovuti al jar);
+
+<26/05/2021> Il Problema era realmente legato ai jar mancanti, li ho scaricati e inseriti nelle librerie della WAB-APP, adesso effettua il collegamento ma non esegue le query.
+
+<27/05/2021> Adesso esegue le query, nella servlet non ho più problemi, ma nella jsp ho problemi legati al ResultSet;
+             Dopo moltp, troppo, tempo ho risolto il problema legato al resultset, chiudevo la connessione prima di passare i dari;
+             Adesso la web-app, che non ha uno scopo preciso, è funzionante;
+             
